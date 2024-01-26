@@ -9,8 +9,7 @@
   transition: all .2s;
   outline:none;
   padding: 5px 10px;
-  border: 1px solid $link-primary;
-  color: $white;
+  color: white;
   background:rgb(18, 21, 33);
   border-radius: 3px;
   text-align: center;
@@ -22,9 +21,4 @@
   vertical-align: middle;
   white-space: nowrap;
   cursor: pointer;
-  &:hover{
-    color:$link-primary;
-    border-color: $link-primary;
-    background: $white;
-  }
 }
